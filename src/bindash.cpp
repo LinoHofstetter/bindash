@@ -436,7 +436,8 @@ void cmddist(bool tCLUSTER, bool tNNEIGHBORS,
 	if (NULL != outfile) { fclose(outfile); }
 }
 
-int main(int argc, char **argv) {
+//Copied functionality of main function into here so that I can call it. main function also calls this function and maintains functionality
+int bindash_main(int argc, char **argv) {
 	time_t begtime, endtime;
 	time(&begtime);
 
@@ -545,5 +546,11 @@ int main(int argc, char **argv) {
 
 	time(&endtime);
 	std::cerr << "Program ran for " << clock() / CLOCKS_PER_SEC << " CPU seconds and " << difftime(endtime, begtime) << " real seconds." << std::endl;
+
+}
+
+
+int main(int argc, char **argv) { //MODIFY
+	return bindash_main(argc, argv);
 }
 
