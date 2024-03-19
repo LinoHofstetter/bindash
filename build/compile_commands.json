@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/lino/CodeProjects/bindash/build",
-  "command": "/usr/bin/clang++ -DGIT_COMMIT_HASH=eb4f81e -DGIT_DIFF_SHORTSTAT=\" 1 file changed, 1 insertion(+), 1 deletion(-)\"   -std=c++11 -Wall -fopenmp -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/bindash.dir/src/bindash.cpp.o -c /Users/lino/CodeProjects/bindash/src/bindash.cpp",
+  "command": "/usr/bin/clang++ -DGIT_COMMIT_HASH=5272ecd -DGIT_DIFF_SHORTSTAT=\"\"   -std=c++11 -Wall -fopenmp -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/bindash.dir/src/bindash.cpp.o -c /Users/lino/CodeProjects/bindash/src/bindash.cpp",
   "file": "/Users/lino/CodeProjects/bindash/src/bindash.cpp",
   "output": "CMakeFiles/bindash.dir/src/bindash.cpp.o"
 }
