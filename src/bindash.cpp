@@ -436,7 +436,6 @@ void cmddist(bool tCLUSTER, bool tNNEIGHBORS,
 	if (NULL != outfile) { fclose(outfile); }
 }
 
-//Copied functionality of main function into here so that I can call it. main function also calls this function and maintains functionality
 int bindash_main(int argc, char **argv) {
 	time_t begtime, endtime;
 	time(&begtime);

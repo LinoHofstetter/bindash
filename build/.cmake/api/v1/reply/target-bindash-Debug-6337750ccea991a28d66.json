@@ -68,11 +68,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"define" : "GIT_COMMIT_HASH=694b80d"
+					"define" : "GIT_COMMIT_HASH=24b2b5f"
 				},
 				{
 					"backtrace" : 5,
-					"define" : "GIT_DIFF_SHORTSTAT= 6 files changed, 2 insertions(+), 339 deletions(-)"
+					"define" : "GIT_DIFF_SHORTSTAT="
 				}
 			],
 			"language" : "CXX",
