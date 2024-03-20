@@ -26,31 +26,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 7,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 8,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 26,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 27,
+				"line" : 33,
 				"parent" : 0
 			}
 		]
@@ -68,17 +68,18 @@
 			[
 				{
 					"backtrace" : 4,
-					"define" : "GIT_COMMIT_HASH=24b2b5f"
+					"define" : "GIT_COMMIT_HASH='73af404'"
 				},
 				{
 					"backtrace" : 5,
-					"define" : "GIT_DIFF_SHORTSTAT="
+					"define" : "GIT_DIFF_SHORTSTAT=' 14 files changed, 74 insertions(+), 344 deletions(-)'"
 				}
 			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -121,12 +122,19 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
 	"sources" : 
 	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/lino/CodeProjects/bindash/src/bindash.cpp" "CMakeFiles/bindash.dir/src/bindash.cpp.o" "gcc" "CMakeFiles/bindash.dir/src/bindash.cpp.o.d"
+  "/Users/lino/CodeProjects/bindash/src/main.cpp" "CMakeFiles/bindash.dir/src/main.cpp.o" "gcc" "CMakeFiles/bindash.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
