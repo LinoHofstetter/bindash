@@ -447,10 +447,14 @@ int bindash_main(int argc, char **argv) {
 		commitsuffix = std::string("-dirty ") + (STR((GIT_DIFF_SHORTSTAT)));
 	}
 
-	if (argc < 2 || !strcmp("--help", argv[1])) { allusage(argc, argv); }
+	if (argc < 2 || !strcmp("--help", argv[1])) { 
+		allusage(argc, argv); 
+		return 0; //added this line, no return was here before
+	}
 	if (!strcmp("--version", argv[1])) {
 		std::cerr << "version " << VERSION << " commit " << (STR(GIT_COMMIT_HASH)) << commitsuffix << std::endl;
-		exit(-1);
+		return (0); //added this instead of line below
+		//exit(-1);
 	}
 	std::cerr << "Running " << argv[0] << " commit " << (STR(GIT_COMMIT_HASH)) << commitsuffix << std::endl;
 
@@ -541,6 +545,7 @@ int bindash_main(int argc, char **argv) {
 	} else {
 		std::cerr << "Unrecognized command: " << argv[1] <<  "\n";
 		allusage(argc, argv);
+		return -1; //added this line
 	}
 
 	time(&endtime);
