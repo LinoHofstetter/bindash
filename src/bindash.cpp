@@ -546,11 +546,4 @@ int bindash_main(int argc, char **argv) {
 
 	time(&endtime);
 	std::cerr << "Program ran for " << clock() / CLOCKS_PER_SEC << " CPU seconds and " << difftime(endtime, begtime) << " real seconds." << std::endl;
-	return 0;
 }
-
-
-int main(int argc, char **argv) { //MODIFY
-	return bindash_main(argc, argv);
-}
-
